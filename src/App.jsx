@@ -1,11 +1,9 @@
-import Button from "./components/Button"
+import Header from "./components/Header"
 
 const App = () =>{
   return(
     <>
-      <p>Hola</p>
-      <Button content="Cancelar" />
-      <Button content="Aceptar" />
+      <Header/>
     </>
   )
 }
