@@ -1,0 +1,11 @@
+.container {
+  background-color: var(--color-gray-primary);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  max-width: 1440px;
+  margin: auto;
+}

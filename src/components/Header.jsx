@@ -1,7 +1,12 @@
+import styles from "../styles/Header.module.css";
+import TopHeader from "./TopHeader";
 const Header = () =>{
     return(
         <>
-            <p>Header</p>
+            <header className={styles.header} > 
+                <TopHeader/>
+                <p>Main Header</p>
+            </header>
         </>
     )
 }
