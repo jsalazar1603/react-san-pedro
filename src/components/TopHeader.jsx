@@ -1,4 +1,5 @@
 import styles from '../styles/TopHeader.module.css'
+import InformativeSection from './InformativeSection'
 import SocialNetwork from './SocialNetwork'
 
 const TopHeader = () => {
@@ -6,7 +7,7 @@ const TopHeader = () => {
         <>
             <div className={styles.container} >
                 <div className={styles.content}>
-                    <p>Seccion Contactos</p>
+                    <InformativeSection/>
                     <SocialNetwork name='facebook'/>
                 </div>
             </div>
