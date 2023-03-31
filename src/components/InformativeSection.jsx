@@ -6,9 +6,9 @@ const InformativeSection = () => {
   return (
     <>
         <div className={styles.container}>
-            <InformativeItem name="phone"/>
-            <InformativeItem name="mail-opened"/>
-            <InformativeItem name="alarm"/>
+            <InformativeItem name="phone" text="+51 955 261 681"/>
+            <InformativeItem name="mail-opened" text="soporte@sanpedro.com"/>
+            <InformativeItem name="alarm" text="Lun-Vie: 09:00-15:00"/>
         </div>
     </>
   )
