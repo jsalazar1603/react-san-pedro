@@ -1,0 +1,12 @@
+.container {
+    background-color: var(--color-red-primary);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px 40px 37px 40px;
+  max-width: 1440px;
+  margin: auto;
+  color: var(--color-dark);
+}

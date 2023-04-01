@@ -1,0 +1,6 @@
+.item{
+    all: unset;
+    font-size: var(--font-size-sm);
+    cursor: pointer;
+    transition: all 0.3s;
+}
